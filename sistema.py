@@ -5,7 +5,7 @@ caderno = []
 # Aqui é a entrada de dados .
 while True:
     print()
-    resp = menu(['Cadastrar Usarios', 'Lista Usuários', 'Acessa contas', 'Sair do programa'])
+    resp = menu(['Cadastrar Usuários', 'Lista Usuários', 'Acessa contas', 'Sair do programa'])
     if resp == 1:
         banco['Conta'] = int(input('Numero da Conta:'))
         banco['Nome'] = str(input('Nome:'))
