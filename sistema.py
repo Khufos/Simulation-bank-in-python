@@ -38,5 +38,5 @@ while True:
             caderno[i]["Saldo"] = reduzir
             print(f'O seu novo saldo é {reduzir}')
     if resp == 4:
-        print('Obirgado por Usar nosso banco:')
+        print('Obrigado por usar nosso banco:')
         break
